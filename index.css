@@ -1,0 +1,32 @@
+body {
+    padding-top: 80px;
+}
+
+.show-cart li {
+    display: flex;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    transition: background-position 1s steps(28);
+    transition-duration: 0s;
+}
+.heart.is-active {
+    transition-duration: 1s;
+    background-position: -2800px 0;
+}
+
+
